@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Download AfikShift for Android</title>
+<meta name="description" content="Download the official AfikShift Android app (APK) directly from afikshift.com.">
+<link rel="canonical" href="https://afikshift.com/download/android">
+<link rel="icon" href="/img/icon.png">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<header id="site-header"></header>
+
+<section class="block" data-testid="android-download-page">
+  <div class="wrap narrow">
+    <h1 class="dl-title">Download AfikShift for Android</h1>
+    <p class="notice" data-testid="testing-notice">AfikShift is currently in its controlled testing phase. Existing authorised testers can sign in. New account registration will open soon.</p>
+
+    <div class="card dl-card" data-when-published hidden>
+      <p class="dl-status">AfikShift v<span data-r="version"></span> for Android · <span data-r="file_size"></span></p>
+      <a class="btn btn-teal dl-btn" data-r-href href="#" data-testid="manual-download">Download APK</a>
+      <p class="dl-small">Tap the button to start the download.</p>
+    </div>
+    <div class="card dl-card" data-when-unpublished data-testid="download-unavailable">
+      <p class="dl-status">The Android download isn't available yet. Please check back soon.</p>
+    </div>
+
+    <div class="card dl-card">
+      <h3>Release details</h3>
+      <dl class="dl-meta">
+        <dt>Version</dt><dd data-r="version" data-testid="rel-version"></dd>
+        <dt>Release date</dt><dd data-r="release_date" data-testid="rel-date"></dd>
+        <dt>File size</dt><dd data-r="file_size" data-testid="rel-size"></dd>
+        <dt>SHA-256 checksum</dt><dd class="mono" data-r="sha256" data-testid="rel-sha"></dd>
+        <dt>Package</dt><dd class="mono">uk.afikshift.app</dd>
+      </dl>
+    </div>
+
+    <div class="card dl-card">
+      <h3>How to install</h3>
+      <ol class="dl-steps">
+        <li>Download the APK on your Android phone.</li>
+        <li>Open the downloaded file. If asked, allow your browser or Files app to "install unknown apps".</li>
+        <li>Tap <strong>Install</strong> (or <strong>Update</strong> if AfikShift is already installed). Your data is kept.</li>
+        <li>Open AfikShift and sign in.</li>
+      </ol>
+      <p class="dl-small">To update, never uninstall first: install the new version over the old one. Only download AfikShift from afikshift.com, and check the SHA-256 checksum above if you want to confirm the file is genuine.</p>
+    </div>
+  </div>
+</section>
+
+<footer id="site-footer"></footer>
+<script src="/assets/site.js"></script>
+<script src="/assets/release.js"></script>
+</body>
+</html>
